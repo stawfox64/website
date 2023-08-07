@@ -167,7 +167,7 @@ ul{
   background-color: #f2119f;
   padding: 5px;
   color: #FFFFFF;
-  position: fixed;
+  position: variable;
   width: 100%;
   text-align:right;
   left:0;
