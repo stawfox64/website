@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pacific Trails Resort offers you luxury camping in spacious and well-appointed private yurts. All campsites have an ocean view. Enjoy the zen and natural beauty of Big Sur at Pacific Trails Resort.">
+    
+    <title>Pacific Trails Resort</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="pacific.css">
+</head>
+
+<body>
+
+ <div id="wrapper">
+
+ <header>
+        <h1><a href="index.html">Pacific Trails Resort</a></h1>
+    </header>   
+<nav><ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="yurts.html">Yurts</a></li>
+    <li><a href="activity.html">Activities</a></li>
+    <li><a href="reservations.html">Reservations</a></li>
+    <li><a href="About.html">About</a></li>
+</ul> 
+</nav>
+<div id="abouthero" class=hero></div>  
+<main>
+          <h2 class = "border">Find out more about us</h2>
+        <button class="collapsible">Mission Statement</button>
+        <div class="content">
+          <p>
+            <figure>
+            <img src="images/zen.jpg" width="100%" height="100%">
+          </figure>
+
+           <p>Here at Pacific Trails Resort we want you to be relaxed and at zen, our mission statement is one of peace, tranquility and adventure. Here we strive to make sure that every stress you have in your daily life is dropped off at the entrance to our luxury patented Yurts, and instead a big glass of wine, delicious food options( Vegan, Vegetarian, Pescatarian, and Gluten Free food options available) are what is picked up instead.<br/><br/>
+            
+           At Pacific Trails our main goal is to enrich your sense of self through our many offerings from daily morning yoga sessions that are sure to align your body, mind and chakras, to the multiple hiking trails that will push your body to its limit giving you a sense of accomplishment when finished, along with a beautiful view of the sun rise or set across the Golden Coastline, Pacific Trails Resort has everything a person(s) with a need for self enrichment could ever want.</p>
+
+           <p> Book your dream getaway <a href= "reservations.html">now!</a></p>
+          </p>
+        </div>
+        <button class="collapsible">About</button>
+        <div class="content">
+          <p>
+            <figure>
+                <img src="images/Founders.jpg" width="100%" height="100%" >   
+              <figcaption> Our Founders Harry and Amelie celebrating their anniversary on the shores of the Pacific Trails</figcaption>
+            </figure>
+            
+            <p>In 2008, our founders Harry and Amelie, who were born and raised in the San Francisco bay area, met while attending the University of California San Francisco through their mutual love of adventure and the ocean they would frequent many beaches along the coastline of the Bay Area.After receiving their degress from the University they decided that the world should be able to view the great Pacific Ocean and welcome into their lives the tranquility and natural mental healing that it brings. <br/><br/>
+
+            In 2012 Amelie and Harry decided to take the next step in their adventerous lives and open Pacific Trails Resort, leaving their tech 9-5 jobs to bring enrichment to the lives of others and since then Pacific Trails Resort has been featured in numerous magazines all around the United States as well as received recognition in international waters for the high class,quality, and service that they and their staff bring to every guest.
+            </p>
+          </p>
+        </div>
+        <button class="collapsible">Our Handling of Covid</button>
+        <div class="content">
+          <p>
+            <figure>
+                <img src="images/mask.png" width="100%" height="100%">  
+            </figure>
+            
+            <p>We here at Pacific Trails Resort can understand your concern when it comes to the risk of exposure. So to minimize this we are following all CDC rulings of 6-feet social distancing as well as regular deep cleaning of all high contact areas and objects. We want you to be as relaxed and stress-free as possible here at Pacific Trails Resort and we are fully committed to making sure you and your loved ones visiting are taken care of.
+
+            </p>
+
+            <p>For all Covid Guidelines per the CDC visit <a href="https://www.cdc.gov/media/releases/2022/p0811-covid-guidance.html">here</a>
+        </div> 
+        <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight){
+              content.style.maxHeight = null;
+            } else {
+              content.style.maxHeight = content.scrollHeight + "px";
+            } 
+          });
+        }
+        </script>
+</ul>    
+</main>
+<footer>
+<div id="contact">
+    <p><span class="resort">Pacific Trails Resort</span> <br>   
+    12010 Pacific Trails Road <br>
+Zephyr,CA 95555 <br>
+888-555-5555
+    </p>
+
+    
+        <p>
+         copyright &copy; 2022 Pacific Trails Resort
+        </p>
+        <p>Marcelino Martinez</p>
+    </footer>
+
+</div>
+
+</body>
+</html>
